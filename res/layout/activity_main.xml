@@ -1,0 +1,96 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="44dp"
+        android:text="@string/hello_world"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="109dp"
+        android:text="@string/jigan"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="168dp"
+        android:text="@string/age"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="154dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="92dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="304dp"
+        android:background="@color/orange"
+        android:text="@string/btn"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="237dp"
+        android:text="@string/sex"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <RadioGroup
+        android:id="@+id/RadioGroup01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="227dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex0" />
+    </RadioGroup>
+
+</AbsoluteLayout>

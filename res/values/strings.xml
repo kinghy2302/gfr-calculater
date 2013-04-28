@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">GFR</string>
+    <string name="hello_world">您好!请输入您的肌酐系数和年龄。</string>
+     <string name="report">经过系统的精确计算，您的GFR(肾小球滤过率)为</string>
+    <string name="jigan">肌酐系数：</string>
+    <string name="sex">性别：</string>
+    <string name="sex1">男</string>
+    <string name="sex0">女</string>
+    <string name="age">年龄：</string>
+     <string name="btn">确定</string>
+     <string name="callme">CALLME</string>
+    <string name="menu_about">关于</string>
+    	<string name="aboutInfo">
+		制作人:贺翼 \n邮    箱:kinghy2302@sina.com \n如有疑问，欢迎交流!
+	</string>
+	<string name="ok_label">确认</string>
+    <string name="menu_exit">退出</string>
+        <string name="menu_vibrate">震动</string>
+        <string name="menu_flashlight">闪光灯</string>
+    <string name="title_activity_main">计算GFR工具</string>
+
+</resources>
